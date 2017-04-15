@@ -1,0 +1,6 @@
+framework: net451, net452, net46, net461
+source https://www.nuget.org/api/v2/
+redirects: on
+
+nuget PerfectShuffle.EventSourcing 0.3.6140.13177
+nuget PerfectShuffle.EventSourcing.AzureTableStorage 1.2.6140.13179

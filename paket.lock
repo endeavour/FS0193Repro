@@ -1,0 +1,35 @@
+REDIRECTS: ON
+FRAMEWORK: NET451, NET452, NET46, NET461
+NUGET
+  remote: https://www.nuget.org/api/v2
+    FSharp.Control.AsyncSeq (2.0.12)
+    FSharp.Core (4.1.12)
+      System.ValueTuple (>= 4.3)
+    FSharpx.Collections (1.15.2)
+      FSharp.Core
+    Microsoft.Azure.KeyVault.Core (2.0.4)
+    Microsoft.Data.Edm (5.8.2)
+    Microsoft.Data.OData (5.8.2)
+      Microsoft.Data.Edm (5.8.2)
+      System.Spatial (5.8.2)
+    Microsoft.Data.Services.Client (5.8.2)
+      Microsoft.Data.OData (5.8.2)
+    Newtonsoft.Json (10.0.2)
+    PerfectShuffle.EventSourcing (0.3.6140.13177)
+      FSharp.Control.AsyncSeq
+      FSharpx.Collections
+      Newtonsoft.Json
+    PerfectShuffle.EventSourcing.AzureTableStorage (1.2.6140.13179)
+      FSharp.Control.AsyncSeq
+      PerfectShuffle.EventSourcing (>= 0.3.6140.13177)
+      Streamstone
+      WindowsAzure.Storage
+    Streamstone (1.1.1)
+      WindowsAzure.Storage (>= 8.1.1)
+    System.Spatial (5.8.2)
+    System.ValueTuple (4.3)
+    WindowsAzure.Storage (8.1.1)
+      Microsoft.Azure.KeyVault.Core (>= 1.0)
+      Microsoft.Data.OData (>= 5.8.2)
+      Microsoft.Data.Services.Client (>= 5.8.2)
+      Newtonsoft.Json (>= 6.0.8)
