@@ -4,5 +4,5 @@ Possible bug in F# Interactive:
     Parameter name: con
 
 
-To repro, clone repository and run bug.bat to restore dependencies and run ``test.fsx``
+To repro, clone repository and run ``bug.bat`` (this just restores dependencies and uses FSI to run ``test.fsx``)
 
